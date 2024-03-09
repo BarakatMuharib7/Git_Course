@@ -1,0 +1,31 @@
+Meeting ID            : 403-762-3150
+Meeting Password	  : IMT-9H2NB4
+--
+
+2- Password for the record (Take it Copy Paste):
+[ AS9rua5TpodjfADPeGi93-sa7ddfo8e9tr8jAF ]
+
+
+
+
+1- Menu 
+	Window ==> Preferences == Run/Debug ==> OpenOCD ==> C:\IMT\00-Tools\03- IMT SDK\03- IMT SDK\IMT_SDK_Win_64\IMT_SDK_Win_64\WinARM\OpenOCD\bin 
+
+2- stmIMTConfig.cfg in
+C:\IMT\00-Tools\03- IMT SDK\03- IMT SDK\IMT_SDK_Win_64\IMT_SDK_Win_64\WinARM\OpenOCD\scripts\board
+
+source [find target/stm32f1x.cfg] ==> source [find target/stm32f4x.cfg]
+
+3- Debug:
+-f board/stmIMTConfig.cfg 
+
+
+How to import existing project:
+================================
+
+
+in project Explorer window (leer platz) rmc ==> import
+
+Expand General==> projects from folder or archive ==> next
+
+Directory ==> and you go to the folder (eg. Hallo_TFT)and click ok
